@@ -13,6 +13,9 @@ def create_soundbank(client, item):
 
         result = client.call("ak.wwise.core.object.create", args)
         pprint.pprint(result)
+        # Disconnect
+        client.disconnect()
+    
     except CannotConnectToWaapiException:
         print("Could not connect to Waapi: Is Wwise running and Wwise Authoring API enabled?")
 

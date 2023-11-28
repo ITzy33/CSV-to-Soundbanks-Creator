@@ -1,4 +1,4 @@
-# create_soundbanks
+# CSV-to-Soundbanks-Creator
 Creating multiple soundbanks from a CSV file using WAAPI.
 
 # Replace arguments
